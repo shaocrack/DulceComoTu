@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #fff8f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  button {
+    padding: 12px 24px;
+    font-size: 1em;
+    background-color: #ffb6c1;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #ffa3b1;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .progress-bar {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 20px;
+    margin: 20px 0;
+    height: 24px;
+    overflow: hidden;
+  }
+  
+  .progress {
+    height: 100%;
+    width: 0;
+    background-color: #ff69b4;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  .title {
+    font-size: 1.8em;
+    color: #e91e63;
+    margin-bottom: 20px;
+  }
+  
+  .traits-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .traits-list li {
+    background: #ffe4ec;
+    margin: 8px 0;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+  }
+  
+  .traits-list li:hover {
+    transform: scale(1.03);
+  }
+  
+  .final-text {
+    font-size: 2em;
+    color: #d63384;
+    margin-bottom: 10px;
+  }
+  
+  .final-subtext {
+    font-size: 1.2em;
+    color: #5d3a5a;
+  }
+  

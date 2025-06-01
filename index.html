@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escaneo Especial</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <button id="startBtn">Da click en este botón</button>
+
+    <div id="scanner" class="hidden">
+      <p id="statusText">Iniciando escaneo...</p>
+      <div class="progress-bar">
+        <div id="progress" class="progress"></div>
+      </div>
+      <p id="percentage">0%</p>
+      <button id="continueBtn" class="hidden">Continuar escaneo</button>
+    </div>
+
+    <div id="report" class="hidden">
+      <h2 class="title">🌟 FICHA TÉCNICA DE ESTA <del>BANDIDA</del> NIÑA 🌟</h2>
+      <ul id="traits" class="traits-list"></ul>
+      <button id="finalBtn">Ver resumen final</button>
+    </div>
+
+    <div id="finalMessage" class="hidden">
+      <h2 class="final-text"> QUE TENGAS UN BUEN DÍA MI DULCE NIÑA </h2>
+      <p class="final-subtext">Pásalo bien... y confirma un morochito 😘</p>
+      <audio id="finalSong" src="music/dulce.mp3" autoplay loop></audio>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
