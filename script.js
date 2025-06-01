@@ -17,7 +17,7 @@ const traitList = [
   "🎭 Hecha la víctima: 10000% (como toda mujer xD)",
   "🗣️ Chismocita: 3000000% (no tengo pruebas, pero tampoco dudas xD)",
   "😅 Sentido del humor: 15% (nada chistoso me has contado :V)",
-  "🍫 Antojo constante: 85% (¡vamos por un morocho! :D)",
+  "🍫 Antojo constante: 85% (¡vamos por un morochitoo! :D)",
   "📱 Contestadora de mensajes: 10% (apenas me respondes uno)"
 ];
 
