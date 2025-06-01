@@ -12,7 +12,7 @@ const finalSong = document.getElementById("finalSong");
 
 const traitList = [
   "💖 Belleza: 1000000% (Confirmado por la NASA y mi corazón xD)",
-  "🌸 Ternura: 40% (¿Tendrás ternura?)",
+  "🌸 Ternura: 40% (¿ya por compromiso este porcentaje?)",
   "😡 Enojo: 2000% (cuando hablas de cosas que te molestan)",
   "🎭 Hecha la víctima: 10000% (como toda mujer xD)",
   "🗣️ Chismocita: 3000000% (no tengo pruebas, pero tampoco dudas xD)",
